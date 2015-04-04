@@ -1,42 +1,70 @@
-@charset "UTF-8";
-body {
-	background-color: #FDFFF1;
-	font-family: droid-serif;
-	font-style: normal;
-	font-weight: 400;
-	color: #33414F;
-	font-size: 1em;
-	line-height: 1.5em;
+.socialicons {
+	width: 7%;
+	text-shadow: 0 0;
+	background-color: #ECF0F1;
+}
+
+.gridcontain1 {
+	width: 100%;
+	display: inline-block;
+	position: static;
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	clear: left;
+}
+
+.gridcontain2 {
+	width: 60%;
+	display: inline-block;
+	position: static;
+	float: right;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	clear: right;
+	margin-top: 20px;
 }
 
 
-
-h1 {
-	color: #000000;
-	font-family: montserrat;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 1.5em;
-	line-height: 1;
+.socialicons:hover {
+	text-shadow: 0px 0px;
+	background-color: #3498DB;
 }
 
-h2 {
-	color: #000000;
-	font-family: montserrat;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 1.375em;
-	line-height: 1.09;
+#rectangle {
+	width: 100%;
+	height: 20px;
+	background-color: #3498DB;
+	display: block;
+	float: left;
+	clear: left;
+	border-bottom-color: #646464;
+	border-radius: 0px;
+	padding-bottom: 5px;
+	border-bottom-style: solid;
 }
 
+.template {
+	background-image:url(/images/template/Distored-LA-Image-Optimize.jpg);
+	background-size:cover;
+}
+	
+	
 
-ul {
-	color: #33414F;
-	font-family: droid-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 1em;
-	line-height: 1.5em;
+@media only screen and (max-width: 40em) { 
+	.socialicons {
+		display:none;
 }
 
+	.dridcontain1 {
+		display:none;
+}
 
+	.gridcontain2 {
+		display: none;
+	}
+; 	display: block;
+	display: block;
+}

@@ -1,37 +1,32 @@
 .socialicons {
-	width: 7%;
-	text-shadow: 0 0;
 	background-color: #ECF0F1;
+	margin-right: 12px;
+	display: inline-block;
+	margin-top:15px;
+}
+
+.socialicons:hover {
+	background-color: #3498DB;
+	margin-right: 12px;
+	display: inline-block;
+	margin-top:15px;
+}
+
+
+	
+.floatright {
+	float: right;
+	width: 50%;
 }
 
 .gridcontain1 {
-	width: 100%;
-	display: inline-block;
-	position: static;
-	float: left;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	clear: left;
-}
-
-.gridcontain2 {
-	width: 60%;
-	display: inline-block;
-	position: static;
-	float: right;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	clear: right;
-	margin-top: 20px;
 }
 
 
-.socialicons:hover {
-	text-shadow: 0px 0px;
-	background-color: #3498DB;
-}
+
+
+
+
 
 #rectangle {
 	width: 100%;
@@ -47,24 +42,42 @@
 }
 
 .template {
-	background-image:url(/images/template/Distored-LA-Image-Optimize.jpg);
-	background-size:cover;
+	background-image:url(/images/template/background_desktop.jpg);
+	background-size: cover;
 }
-	
+
+ul {
+    list-style-type: none;
+}
+
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+
+.gridcontain1 {
+	width: 30%;
+}	
+
+.floatright {
+	float:right;
+	width:50%;
+}
+
+
+}
 	
 
 @media only screen and (max-width: 40em) { 
-	.socialicons {
-		display:none;
+
+.gridcontain1 {
+	width:100%;
+}	
+
+.socialicons {
+	display: none;
 }
 
-	.dridcontain1 {
-		display:none;
+.socialicons:hover {
+	display: none;
 }
-
-	.gridcontain2 {
-		display: none;
-	}
-; 	display: block;
-	display: block;
+	
 }

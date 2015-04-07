@@ -22,25 +22,29 @@
   
  	 <section>
 	   <div class="row">
-  		 <div class="large-4 columns">
-         	<div class="gridcontain1">
+  		 <div class="medium-4 column gridcontain1">
+        
             
-            	<img src="svg/logo/proppmbanner2.svg" width:100%; height:100%; onerror="this.onerror=null; this.src='svg/logo/proppmbanner2.png'">
-            </div>
+		<img src="/svg/logo/proppmbanner2.svg" />
+		<script src="bower_components/svgeezy/svgeezy.js"></script>
+        <script>
+            svgeezy.init(false, 'png');
+        </script>
+      
 
          </div>
- 		 <div class="large-8 columns">
-			<ul class="gridcontain2" data-clearing>
- 				 <li class="socialicons"><a href="http://www.google.com"><img src="images/template/google.png"></a></li>
-  				 <li class="socialicons"><a href="http://www.google.com"><img src="images/template/twitter.png"></a></li>
-  				 <li class="socialicons"><a href="http://www.google.com"><img src="images/template/youtube.png"></a></li>
+ 		 <div class="medium-4 columns floatright">
+			<ul class="small-block-grid-9">
+ 				 <li><a href="http://www.google.com"><img class="socialicons" src="images/template/google.png" alt="Google+" width="40px" height="40px"></a></li>
+  				 <li><a href="http://www.twitter.com"><img class="socialicons" src="images/template/twitter.png" alt="Twitter" width="40px" height="40px"></a></li>
+  				 <li><a href="http://www.youtube.com"><img class="socialicons" src="images/template/youtube.png" alt="YouTube" width="40px" height="40px"></a></li>
                  
-                 <li class="socialicons"><a href="http://www.google.com"><img src="images/template/slideshare.png"></a>			</li>
-                 <li class="socialicons"><a href="http://www.google.com"><img src="images/template/rss.png"></a></li>
-                 <li class="socialicons"><a href="http://www.google.com"><img src="images/template/github.png"></a></li>
-                 <li class="socialicons"><a href="http://www.google.com"><img src="images/template/facebook.png"></a></li>
-                 <li class="socialicons"><a href="http://www.google.com"><img src="images/template/skype.png"></a></li>
-                 <li class="socialicons"><a href="http://www.google.com"><img src="images/template/email.png"></a></li>
+                 <li><a href="http://www.slideshare.com"><img class="socialicons" src="images/template/slideshare.png" alt="Slideshare" width="40px" height="40px"></a></li>
+                 <li><a href="http://www.rss.com"><img class="socialicons" src="images/template/rss.png" alt="RSS" width="40px" height="40px"></a></li>
+                 <li><a href="http://www.github.com"><img class="socialicons" src="images/template/github.png" alt="Github" width="40px" height="40px"></a></li>
+                 <li><a href="http://www.facebook.com"><img class="socialicons" src="images/template/facebook.png" alt="Facebook" width="40px" height="40px"></a></li>
+                 <li><a href="http://www.skype.com"><img class="socialicons" src="images/template/skype.png" alt="Skype" width="40px" height="40px"></a></li>
+                 <li><a href="http://www.email.com"><img class="socialicons" src="images/template/email.png" alt="Email" width="40px" height="40px"></a></li>
 			</ul>
         </div>
         </div>
@@ -57,20 +61,24 @@
      </div>
      </section>
      
-     <section>
+      <section>
      <div class="row">
      	<div class="large-12 columns">
-        <img src="svg/misc/underconstruct.svg"; onerror="this.onerror=null; this.src='svg/logo/underconstruct.png'">
+            <img src="/svg/misc/underconstruct.svg" /> <!-- will be converted to path/to/file.png if browser doesn't support SVGs  -->
+        <script src="bower_components/svgeezy/svgeezy.js"></script>
+        <script>
+            svgeezy.init(false, 'png');
+        </script>
+ 
          </div>
       </div>
       </section>
 
 
-
     <script src="proppm/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="proppm/bower_components/foundation/js/foundation.min.js"></script>
     <script src="proppm/js/app.js"></script>
-    <script src="proppm/js/foundation/foundation.clearing.js"></script>
+    <script src="proppm/bower_components/foundation/foundation.clearing.js"></script>
     <script>
   $(document).foundation();
 </script>

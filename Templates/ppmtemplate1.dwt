@@ -1,0 +1,76 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title>Pro-PPM</title>
+    <!-- TemplateEndEditable -->
+    <!-- TemplateBeginEditable name="description-keywords" --><meta name="description" content="Pro-PPM delivers knowledge content in Portfolio and Project Management, using SAP business suite (PS Project Systems and PPM Portfolio and Project Management).">
+    <meta name="keywords" content="Project, Project Management, Portfolio, Portfolio Management, SAP, ERP, PS, PPM, SAP PS, SAP PPM"><!-- TemplateEndEditable -->
+
+    <link rel="stylesheet" href="/proppm/stylesheets/app.css" />
+    <link href="../stylesheets/styles.css" rel="stylesheet" type="text/css">
+    <script src="/proppm/bower_components/modernizr/modernizr.js"></script>
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+  </head>
+  
+
+  <body class="template">
+
+  
+  
+  
+ 	 <section>
+	   <div class="row">
+  		 <div class="medium-4 column gridcontain1">
+        
+            
+		<img src="/svg/logo/proppmbanner2.svg" />
+		<script src="../bower_components/svgeezy/svgeezy.js"></script>
+        <script>
+            svgeezy.init(false, 'png');
+        </script>
+      
+
+         </div>
+ 		 <div class="medium-4 columns floatright">
+			<ul class="small-block-grid-9">
+ 				 <li><a href="http://www.google.com"><img class="socialicons" src="../images/template/google.png" alt="Google+" width="40px" height="40px"></a></li>
+  				 <li><a href="http://www.twitter.com"><img class="socialicons" src="../images/template/twitter.png" alt="Twitter" width="40px" height="40px"></a></li>
+  				 <li><a href="http://www.youtube.com"><img class="socialicons" src="../images/template/youtube.png" alt="YouTube" width="40px" height="40px"></a></li>
+                 
+                 <li><a href="http://www.slideshare.com"><img class="socialicons" src="../images/template/slideshare.png" alt="Slideshare" width="40px" height="40px"></a></li>
+                 <li><a href="http://www.rss.com"><img class="socialicons" src="../images/template/rss.png" alt="RSS" width="40px" height="40px"></a></li>
+                 <li><a href="http://www.github.com"><img class="socialicons" src="../images/template/github.png" alt="Github" width="40px" height="40px"></a></li>
+                 <li><a href="http://www.facebook.com"><img class="socialicons" src="../images/template/facebook.png" alt="Facebook" width="40px" height="40px"></a></li>
+                 <li><a href="http://www.skype.com"><img class="socialicons" src="../images/template/skype.png" alt="Skype" width="40px" height="40px"></a></li>
+                 <li><a href="http://www.email.com"><img class="socialicons" src="../images/template/email.png" alt="Email" width="40px" height="40px"></a></li>
+			</ul>
+        </div>
+        </div>
+  
+  
+
+ 	 </section>
+     
+     <section>
+     <div class="row">
+      <div class="large-12 columns">
+      	<div id="rectangle"></div>
+      </div>
+     </div>
+     </section>
+     <!-- TemplateBeginEditable name="pagecontent" -->{tag_pagecontent}<!-- TemplateEndEditable --> 
+  <script src="../proppm/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../proppm/bower_components/foundation/js/foundation.min.js"></script>
+    <script src="../proppm/js/app.js"></script>
+    <script src="../proppm/bower_components/foundation/foundation.clearing.js"></script>
+    <script>
+  $(document).foundation();
+</script>
+    
+    
+  </body>
+</html>

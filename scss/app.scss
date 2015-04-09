@@ -1,0 +1,312 @@
+@import "settings";
+@import "foundation";
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+.socialicons {
+	background-color: #ECF0F1;
+	margin-right: 12px;
+	display: inline-block;
+	margin-top:15px;
+}
+
+.socialicons:hover {
+	background-color: #3498DB;
+	margin-right: 12px;
+	display: inline-block;
+	margin-top:15px;
+}
+
+.floatright {
+	float: right;
+}
+
+.footer {
+	
+}
+
+.tweakmed4 {
+	width:33%;
+}
+
+
+
+
+
+
+
+
+
+
+#rectangle {
+	width: 100%;
+	height: 20px;
+	background-color: #3498DB;
+	display: block;
+	float: left;
+	clear: left;
+	border-bottom-color: #646464;
+	border-radius: 0px;
+	padding-bottom: 5px;
+	border-bottom-style: solid;
+}
+
+.template {
+	background-image:url(/images/template/background_desktop.jpg);
+	background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+
+.gridcontain1 {
+	width: 30%;
+}	
+
+.floatright {
+	float: right;
+	width: 100%;
+}
+
+
+}
+	
+
+@media only screen and (max-width: 40em) { 
+
+.gridcontain1 {
+	width:100%;
+}	
+
+.socialicons {
+	display: none;
+}
+
+.socialicons:hover {
+	display: none;
+}
+
+.magicon {
+	display:none;
+}
+
+	
+}
+.headerbk {
+	background-color: rgba(236,240,241,1.00);
+}
+
+.full-width {
+
+  max-width: 1400px;
+
+}
+
+
+
+$text-color: #fff;
+
+
+
+// footer CSS
+
+
+
+.footer {
+
+  background-color: #2980b9;
+
+  padding: 2rem 4rem;
+
+  text-align: center;
+
+  color: $text-color;
+
+  i {
+
+    font-size: 100px;
+
+  }
+
+}
+
+
+
+.footer {
+
+  h4 {
+
+    color: $text-color;
+
+    font-size: 1em;
+
+    font-weight: 400;
+
+    text-transform: uppercase;
+
+    margin-top: 2.5rem;
+
+    margin-bottom: 10px;
+
+  }
+
+  p, a {
+
+    font-weight: 300; 
+
+    font-size: .8em;
+
+    color: $text-color;
+
+  }
+
+}
+
+
+
+@media only screen and (min-width: 40.063em) {
+
+.footer {
+
+  .columns:nth-child(n+2) {
+
+    border-left: 1px solid scale-color($text-color, $lightness: -30%);
+
+    min-height: 280px;
+
+  }
+
+ }
+
+}
+
+
+
+.footer-links {
+
+  list-style-type: none;
+
+  li {
+
+    margin-top: .5em;
+
+  }
+
+
+
+}
+
+
+.proppm2.row {
+  @include grid-row();
+  .proppm2-column {
+    @include grid-column(12);
+  }
+}
+
+.proppm2-column-pos1 {
+  @include grid-column(
+    // Control the number of columns
+    $columns:5,
+    // Specify whether or not this is the last column in the row
+    $last-column:false,
+    // Choose whether or not to center this column
+    $center:false,
+    // Choose the number of columns to offset this element by
+    $offset:0,
+    // Specify how many columns to push this element past
+    $push:0,
+    // Specify how many columns to pull this element past
+    $pull:0,
+    // Set to true to remove column padding
+    $collapse:true,
+    // Specify the float direction
+    $float:left
+  );
+}
+
+.proppm2-column-pos2 {
+  @include grid-column(
+    // Control the number of columns variable
+    $columns:5,
+    // Specify whether or not this is the last column in the row
+    $last-column:true,
+    // Choose whether or not to center this column
+    $center:false,
+    // Choose the number of columns to offset this element by
+    $offset:2,
+    // Specify how many columns to push this element past
+    $push:0,
+    // Specify how many columns to pull this element past
+    $pull:0,
+    // Set to true to remove column padding
+    $collapse:true,
+    // Specify the float direction
+    $float:left
+  );
+}
+
+#logo {
+	padding-right: 15px;
+	position: static;
+	float: left;
+	clear: left;
+	visibility: visible;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 48%;
+	height: 120px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-bottom: 0px;
+}
+
+
+
+        
